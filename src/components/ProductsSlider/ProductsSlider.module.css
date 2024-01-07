@@ -1,0 +1,32 @@
+.slider {
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.slider::-webkit-scrollbar {
+    height: 5px;
+}
+  
+.slider::-webkit-scrollbar-thumb {
+    background: #7a4a58;
+}
+
+.slider__track {
+    display: flex;
+    gap: 20px;
+}
+
+.grid__title {
+    padding: 5px;
+    width: 100%;
+    background-color: #e7e6e2;
+}
+
+.cart__btn {
+    background-color: #784a57 !important;
+    border-radius: 0 !important;
+}
+
+.cart__btn:hover {
+    background-color: #944f63 !important;
+}
