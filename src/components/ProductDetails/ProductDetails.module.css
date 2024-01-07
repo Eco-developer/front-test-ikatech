@@ -1,0 +1,143 @@
+.section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 30px;
+    padding-bottom: 30px;
+    gap: 20px;
+    max-width: 1200px;
+    margin: auto
+}
+
+.section__content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.images {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.8;
+    gap: 15px;
+}
+
+.images__main {
+    padding-top: 60%;
+    position: relative;
+    border-bottom: 1px solid #adb0b1;
+}
+
+.image {
+    object-fit: contain;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    object-position: center;
+}
+
+.images__side {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+.images__side__item {
+    padding-top: 100%;
+    position: relative;
+}
+
+.info > hr {
+    margin-bottom: 15px;
+    margin-top: 6px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.color__container {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.color {
+    position: relative;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #a0a2a4;
+}
+
+.color__image {
+    object-fit: contain;
+    width: calc(100% - 16px);
+    height: calc(100% - 16px);
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    bottom: 8px;
+    position: absolute;
+    object-position: center;
+}
+
+.link {
+    color: #707070;
+    text-transform: uppercase;
+}
+
+.cart__btn__container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #d1d1d0;
+}
+
+.cart__btn {
+    background-color: #784a57 !important;
+    border-radius: 0 !important;
+}
+
+.cart__btn:hover {
+    background-color: #944f63 !important;
+}
+
+@media screen and (min-width: 490px) {
+    .section {
+        padding: 8px 50px;
+        padding-bottom: 30px;
+    }
+
+    .images__side {
+        grid-template-columns: repeat(8, 1fr);
+    }
+}
+
+@media screen and (min-width:800px) {
+   .section__content {
+        flex-direction: row;
+        gap: 70px;
+    }
+
+    .images {
+        min-width: 400px;
+   }
+
+   .cart__btn__container {
+    gap: 50px;
+   }
+}
+
+@media screen and (min-width:1000px) { 
+    .section__content {
+        flex-direction: row;
+        gap: 100px;
+    }
+}
