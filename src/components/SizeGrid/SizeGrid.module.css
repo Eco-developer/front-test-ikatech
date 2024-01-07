@@ -1,0 +1,23 @@
+.sizes {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 10px;
+    max-width: 260px;
+}
+
+.sizes__item {
+    display: grid;
+    place-items: center;
+    height: 45px;
+    background-color: #c8c6ca;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.sizes__item:hover {
+    opacity: 0.5;
+}
+
+.sizes__item__selected {
+    opacity: 0.5;
+}
