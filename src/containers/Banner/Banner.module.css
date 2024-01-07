@@ -1,0 +1,43 @@
+:root {
+    width: 100vw;
+}
+
+.banner__section {
+    width: var(--width);
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    background-color: #7a4a58;
+    width: var(--width);
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    background-color: #c8c6cb;
+    width: var(--width);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding: 10px;
+}
+
+.links__item {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 600px) {
+    .links {
+        flex-direction: row;
+        justify-content: flex-end;
+        padding-right: 50px;
+    }
+}
