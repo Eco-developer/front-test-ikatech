@@ -1,0 +1,12 @@
+{
+    "nombre": "Zapatilla Hombre Pelikan",
+    "precio": 5000,
+    "referencia": "zap-005",
+    "coleccion": "calzado",
+    "descripcion": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas in diam odio. Nam ipsum lectus, maximus vitae turpis id, hendrerit cursus est. Quisque ut eros dictum, dictum augue vel, lobortis quam. Nam id vehicula lorem. Nulla facilisi. Donec varius ipsum massa, a pellentesque nisl posuere quis. Pellentesque gravida aliquam feugiat. Donec nec ipsum tortor. Sed nec blandit nulla. Vivamus sapien nisl, eleifend vel varius in, feugiat eget metus. Praesent quis tempus turpis. Aliquam euismod rhoncus enim, eu lacinia tellus vehicula quis. Nulla tellus elit, tincidunt quis varius ac, dapibus at nisi. Fusce egestas eros id ultrices venenatis.",
+    "tecnologias": "        Quisque tellus ligula, rhoncus sit amet posuere sed, pulvinar sed ante. Sed vestibulum, magna pretium molestie feugiat, nulla augue ultrices dolor, sit amet venenatis velit dolor pretium tellus. Pellentesque eu dui in dui suscipit vulputate. Nulla sem enim, aliquam vitae lectus ac, ultrices iaculis quam.",
+    "foto_coleccion": ["11.jpg", "1.jpg", "2.jpg", "3.jpg", "4.jpg","5.jpg"],
+    "color": "11.jpg",
+    "tallas": [5, 5.5, 6, 6.5, 7, 7.5, 8, 8.5, 9, 9.5],
+    "foto": "11.jpg"
+}
