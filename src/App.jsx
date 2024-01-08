@@ -1,9 +1,9 @@
 import { 
   Banner, 
-  Header, 
+  Header,
+  ProductDetails,
+  Footer
 } from './containers';
-import { ProductDetails } from './components';
-import { Footer } from './containers';
 import styles from "./App.module.css";
 import recommendationsDumy from "./zapato.json";
 import productDummy from "./productDummy.json";

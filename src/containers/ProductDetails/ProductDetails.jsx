@@ -1,8 +1,10 @@
-import { ProductsGrid } from "../ProductsGrid/ProductsGrid"
-import { ProductsSlider } from "../ProductsSlider/ProductsSlider"
+import { 
+    Info,
+    ProductsGrid,
+    ProductsSlider 
+} from "../../components"
 import { DetailsMain } from "./DetailsMain"
 import { DetailsImages } from "./DetailsImages"
-import { DetailsInfo } from "./DetailsInfo"
 import { Typography } from "@mui/material"
 import { useDispatch } from "react-redux"
 import { setCart } from "../../features/cart/cartSlice"
@@ -38,11 +40,11 @@ export const ProductDetails = ({product={}, recommendations=[]}) => {
                     handleAddToCart={handleAddToCart}
                 />
             </div>
-            <DetailsInfo
+            <Info
                 title="Detalles de Producto"
                 text={product.descripcion}
             />
-            <DetailsInfo
+            <Info
                 title="Tecnologías"
                 text={product.tecnologias}
             />

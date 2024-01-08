@@ -1,4 +1,4 @@
-import { SideImages } from "../SideImages.jsx/SideImages";
+import { SideImages } from "../../components/SideImages.jsx/SideImages";
 import styles from "./ProductDetails.module.css";
 
 export const DetailsImages = ({colection=[], image=""}) => (

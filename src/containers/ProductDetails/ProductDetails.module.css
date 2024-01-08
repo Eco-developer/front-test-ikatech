@@ -52,11 +52,6 @@
     position: relative;
 }
 
-.info > hr {
-    margin-bottom: 15px;
-    margin-top: 6px;
-}
-
 .details {
     display: flex;
     flex-direction: column;

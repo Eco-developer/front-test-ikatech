@@ -1,5 +1,5 @@
-import { SizeGrid } from "../SizeGrid/SizeGrid";
-import { LinkFactory } from "../LinkFactory/LinkFactory";
+import { SizeGrid } from "../../components/SizeGrid/SizeGrid";
+import { LinkFactory } from "../../components/LinkFactory/LinkFactory";
 import { 
     Button, 
     Typography 
