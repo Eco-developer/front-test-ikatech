@@ -150,5 +150,12 @@ export const Footer = () => (
         <div className={styles.links}>
             <LinksContainer links={footerLinks}/>
         </div>
+        <div className={styles.sponsors}>
+            <img 
+                alt="sponsors" 
+                src="/assets/images/sponsors.png"
+                className={styles.sponsors__image}    
+            />
+        </div>
     </footer>
 )

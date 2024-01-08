@@ -32,6 +32,7 @@
     align-items: center;
     padding: 30px;
     gap: 20px;
+    border-bottom: 1px solid #cdcbd0;
 }
 
 .links__container {
@@ -59,9 +60,13 @@
 }
 
 .newsletter__input > input::placeholder {
-   color: #868686;
-   opacity: 1;
-   font-weight: bold;
+    color: #868686;
+    opacity: 1;
+    font-weight: bold;
+}
+
+.sponsors {
+    display: none;
 }
 
 @media screen and (min-width:600px) {
@@ -75,5 +80,20 @@
     .links__container {
         text-align: left;
         max-width: 300px;
+    }
+}
+
+@media screen and (min-width:800px) { 
+    .sponsors {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 20px;
+        padding-top: 10px;
+    }
+    
+    .sponsors__image {
+        height: 50px;
+        object-fit: contain;
     }
 }
