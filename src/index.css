@@ -15,3 +15,46 @@ body::-webkit-scrollbar {
 * {
   box-sizing: border-box;
 }
+
+@font-face {
+  font-family: "Delux";
+  src: local("brotherDeluxe1350____2011"),
+    url("./fonts/brotherDeluxe1350____2011.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Cutty";
+  src: local("CuttyFruty"),
+    url("./fonts/CuttyFruty.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratBold";
+  src: local("Montserrat-Bold"),
+    url("./fonts/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "MontserratRegular";
+  src: local("Montserrat-Regular"),
+    url("./fonts/Montserrat-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Nashvill";
+  src: local("NASHVILL"),
+    url("./fonts/NASHVILL.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "RadiantAntique";
+  src: local("RadiantAntique"),
+    url("./fonts/RadiantAntique.ttf") format("truetype");
+}
+
+
+@font-face {
+  font-family: "glyphicons";
+  src: local("glyphicons-halflings-regular"),
+    url("./fonts/glyphicons-halflings-regular.ttf") format("truetype");
+}
