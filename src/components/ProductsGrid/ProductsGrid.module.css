@@ -13,6 +13,7 @@
 .cart__btn {
     background-color: #784a57 !important;
     border-radius: 0 !important;
+    font-family: "MontserratRegular" !important;
 }
 
 .cart__btn:hover {

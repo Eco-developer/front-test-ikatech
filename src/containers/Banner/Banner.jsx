@@ -25,6 +25,7 @@ export const Banner = () => (
         <div className={styles.banner}>
             <Typography
                 color="#ffffff"
+                fontFamily="MontserratBold"
             >
                 HOT SALE -30% EN SANDALIAS
             </Typography>

@@ -28,11 +28,15 @@ export const Product = ({
         />
         <Typography
             color="#424242"
-            fontWeight="bold"    
+            fontWeight="bold"
+            fontFamily="MontserratBold"    
         >
             {name}
         </Typography>
-        <Typography color="#7a4a58">
+        <Typography 
+            color="#7a4a58"
+            fontFamily="MontserratRegular"    
+        >
             {`$${price}.000`}
         </Typography>
         {button ? 

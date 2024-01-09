@@ -22,6 +22,7 @@ export const ProductDetails = ({product={}, recommendations=[]}) => {
                     fontWeight="bold"
                     color="#989898"
                     textTransform="uppercase"
+                    fontFamily="MontserratBold"
                 >
                     HUSHPUPPIESCO {product.coleccion ? `/ ${product.coleccion }` : ""} {product.nombre ? `/ ${product.nombre }` : ""}
                 </Typography>

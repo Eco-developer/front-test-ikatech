@@ -25,7 +25,10 @@ export const footerLinks = [
                 type: LINK_TITLE,
                 props: {
                     textTransform:"uppercase",
-                    color: "#000"
+                    color: "#000",
+                    fontWeight:"bold",
+                    fontFamily:"glyphicons",
+                    style: { wordSpacing: "-14px" }
                 }
             },
             {
@@ -59,7 +62,10 @@ export const footerLinks = [
                 type: LINK_TITLE,
                 props: {
                     textTransform:"uppercase",
-                    color: "#000"
+                    color: "#000",
+                    fontWeight:"bold",
+                    fontFamily:"glyphicons",
+                    style: { wordSpacing: "-14px" }
                 }
             },
             {
@@ -83,7 +89,10 @@ export const footerLinks = [
                 type: LINK_TITLE,
                 props: {
                     textTransform:"uppercase",
-                    color: "#000"
+                    color: "#000",
+                    fontWeight:"bold",
+                    fontFamily:"glyphicons",
+                    style: { wordSpacing: "-14px" }
                 }
             },
             {
@@ -107,7 +116,10 @@ export const footerLinks = [
                 type: LINK_TITLE,
                 props: {
                     textTransform:"uppercase",
-                    color: "#000"
+                    color: "#000",
+                    fontWeight:"bold",
+                    fontFamily:"glyphicons",
+                    style: { wordSpacing: "-14px" }
                 }
             },
             {
@@ -116,7 +128,7 @@ export const footerLinks = [
                 props: {
                     textTransform:"uppercase",
                     color: "#909090",
-                    fontSize: "12px"
+                    fontSize: "12px",
                 }
             },
             {
@@ -139,6 +151,7 @@ export const Footer = () => (
             <Typography
                 fontSize="30px"
                 color="#575656"
+                fontFamily="glyphicons"
             >
                 @HUSHPUPPIESCO
             </Typography>

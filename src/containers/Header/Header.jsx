@@ -58,7 +58,7 @@ export const Header = () => {
                     <Typography
                         textTransform="uppercase"
                         color="#a17f89"
-                        
+                        fontFamily="MontserratRegular" 
                     >
                         Envío gratis para pedidos superiores a $300.000
                     </Typography>

@@ -21,7 +21,11 @@ export const DetailsMain = ({
                 textTransform="uppercase"
                 fontWeight="bold"
                 color="#666666"
+                fontFamily="glyphicons"
                 fontSize="20px"
+                style={{
+                    wordSpacing: "-14px"
+                }}
             >
                 {name}
             </Typography>
@@ -29,10 +33,14 @@ export const DetailsMain = ({
                 textTransform="uppercase"
                 fontWeight="bold"
                 color="#7a4a58"
+                fontFamily="MontserratBold"
             >
                 {`$${price}.000`}
             </Typography>
-            <Typography color="#cccacf">
+            <Typography 
+                color="#cccacf" 
+                fontFamily="MontserratRegular"
+            >
                 {`Cod. de producto ${referece}`}
             </Typography>
         </div>
@@ -42,6 +50,7 @@ export const DetailsMain = ({
                 textTransform="uppercase"
                 fontSize="12px"
                 fontWeight="bold"
+                fontFamily="MontserratBold"
             >
                 Color
             </Typography>
@@ -59,6 +68,7 @@ export const DetailsMain = ({
                 textTransform="uppercase"
                 fontSize="12px"
                 fontWeight="bold"
+                fontFamily="MontserratBold"
             >
                 Talla
             </Typography>
